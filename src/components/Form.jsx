@@ -21,7 +21,6 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("form submitted");
     let pfGP = calculatePfGP(fields) * 3;
     let pflGP = calculatePflGP(fields) * 1;
     let calculusGP = calculateCalculusGP(fields) * 3;
@@ -30,13 +29,13 @@ export default function Form() {
     let aictlGP = calculateAictlGP(fields) * 1;
     let apGP = calculateApGP(fields) * 2;
     let aplGP = calculateAplGP(fields) * 1;
-    console.log(pfGP, pflGP, calculusGP, dmGP, aictGP, aictlGP, apGP, aplGP);
     let sum =
       pfGP + pflGP + calculusGP + dmGP + aictGP + aictlGP + apGP + aplGP;
     let result = sum / 16;
     setGpa(result);
+    document.getElementById("result-elem").scrollIntoView({ behavior: "smooth" });
+    window.location.hash = "#result-elem";
   };
-  console.log(fields);
   return (
     <>
       <form onSubmit={handleSubmit}>
@@ -157,14 +156,13 @@ export default function Form() {
           Submit
         </button>
       </form>
-      {gpa !== "pending" && <h3  className="mt-3">Your estimated gpa is: {gpa}</h3>}
+      {gpa !== "pending"? <h3  className="mt-3" id="result-elem">Your estimated gpa is: {gpa}</h3>:<h3 className="mt-3" id="result-elem"></h3>}
     </>
   );
 }
 
 const calculatePfGP = (fields) => {
   let pfM = parseInt(fields.pf);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
@@ -194,7 +192,6 @@ const calculatePfGP = (fields) => {
 
 const calculatePflGP = (fields) => {
   let pfM = parseInt(fields.pfl);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
@@ -224,7 +221,6 @@ const calculatePflGP = (fields) => {
 
 const calculateCalculusGP = (fields) => {
   let pfM = parseInt(fields.calculus);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
@@ -283,7 +279,6 @@ const calculateDMGP = (fields) => {
 
 const calculateAictGP = (fields) => {
   let pfM = parseInt(fields.aict);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
@@ -313,7 +308,6 @@ const calculateAictGP = (fields) => {
 
 const calculateAictlGP = (fields) => {
   let pfM = parseInt(fields.aictl);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
@@ -343,7 +337,6 @@ const calculateAictlGP = (fields) => {
 
 const calculateApGP = (fields) => {
   let pfM = parseInt(fields.ap);
-  //   console.log(pfM, fields.pf);
   let pf;
   if (pfM >= 85) {
     pf = 4;
