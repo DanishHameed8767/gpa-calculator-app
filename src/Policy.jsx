@@ -2,7 +2,7 @@ export default function Policy() {
   return (
     <>
       <div className="container my-3">
-      <h1>Grading Policy</h1>
+        <h1>Grading Policy</h1>
         <p>
           The GPA Calculator follows the below grading policy for assigning
           grades based on marks. The grade scale decreases incrementally through
@@ -130,6 +130,14 @@ export default function Policy() {
             </tr>
           </tbody>
         </table>
+        <div className="container">
+          <h3>Note</h3>
+          <p>
+            This GPA calculation is an assumption based on generalized grading
+            rules. The actual GPA may differ depending on teacher's
+            grading policies and rules.
+          </p>
+        </div>
       </div>
     </>
   );

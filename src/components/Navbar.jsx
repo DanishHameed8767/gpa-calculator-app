@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav className="navbar  bg-primary navbar-expand-lg" data-bs-theme="dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"/"}>
-            Navbar
+            GPA Calculator
           </Link>
           <button
             className="navbar-toggler"
