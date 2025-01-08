@@ -13,8 +13,6 @@ export default function Policy() {
         For the following courses, the grades decrease with a 10-marks
         difference between successive ranges:
         <ul>
-          <li>Programming Fundamentals (PF)</li>
-          <li>PF Lab</li>
           <li>Calculus</li>
           <li>AICT (Artificial Intelligence and Communication Technology)</li>
           <li>AICT Lab</li>
@@ -126,6 +124,62 @@ export default function Policy() {
             </tr>
             <tr>
               <td>35 to 39</td>
+              <td>D</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>PF & PFL</h3>
+        <p>
+          For these courses, the grades decrease with a 5-marks
+          difference between successive ranges:
+        </p>
+        <br />
+        <table className="table">
+          <thead>
+            <tr>
+              <th scope="col">Marks Range</th>
+              <th scope="col">Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>85 and above</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>80 to 84</td>
+              <td>A-</td>
+            </tr>
+            <tr>
+              <td>75 to 79</td>
+              <td>B+</td>
+            </tr>
+            <tr>
+              <td>70 to 74</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>65 to 69</td>
+              <td>B-</td>
+            </tr>
+            <tr>
+              <td>60 to 64</td>
+              <td>C+</td>
+            </tr>
+            <tr>
+              <td>55 to 59</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>50 to 54</td>
+              <td>C-</td>
+            </tr>
+            <tr>
+              <td>45 to 49</td>
+              <td>D+</td>
+            </tr>
+            <tr>
+              <td>40 to 44</td>
               <td>D</td>
             </tr>
           </tbody>

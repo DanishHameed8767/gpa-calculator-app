@@ -166,23 +166,23 @@ const calculatePfGP = (fields) => {
   let pf;
   if (pfM >= 85) {
     pf = 4;
-  } else if (pfM >= 75 && pfM < 85) {
+  } else if (pfM >= 80 && pfM < 85) {
     pf = 3.7;
-  } else if (pfM >= 65 && pfM < 75) {
+  } else if (pfM >= 75 && pfM < 79) {
     pf = 3.3;
-  } else if (pfM >= 55 && pfM < 65) {
+  } else if (pfM >= 70 && pfM < 74) {
     pf = 3;
-  } else if (pfM >= 50 && pfM < 55) {
+  } else if (pfM >= 65 && pfM < 69) {
     pf = 2.7;
-  } else if (pfM >= 45 && pfM < 50) {
+  } else if (pfM >= 60 && pfM < 64) {
     pf = 2.3;
-  } else if (pfM >= 40 && pfM < 45) {
+  } else if (pfM >= 55 && pfM < 59) {
     pf = 2;
-  } else if (pfM >= 35 && pfM < 40) {
+  } else if (pfM >= 50 && pfM < 54) {
     pf = 1.7;
-  } else if (pfM >= 30 && pfM < 35) {
+  } else if (pfM >= 45 && pfM < 49) {
     pf = 1.3;
-  } else if (pfM >= 25 && pfM < 30) {
+  } else if (pfM >= 40 && pfM < 44) {
     pf = 1;
   } else {
     pf = 0;
@@ -195,23 +195,23 @@ const calculatePflGP = (fields) => {
   let pf;
   if (pfM >= 85) {
     pf = 4;
-  } else if (pfM >= 75 && pfM < 85) {
+  } else if (pfM >= 80 && pfM < 85) {
     pf = 3.7;
-  } else if (pfM >= 65 && pfM < 75) {
+  } else if (pfM >= 75 && pfM < 79) {
     pf = 3.3;
-  } else if (pfM >= 55 && pfM < 65) {
+  } else if (pfM >= 70 && pfM < 74) {
     pf = 3;
-  } else if (pfM >= 50 && pfM < 55) {
+  } else if (pfM >= 65 && pfM < 69) {
     pf = 2.7;
-  } else if (pfM >= 45 && pfM < 50) {
+  } else if (pfM >= 60 && pfM < 64) {
     pf = 2.3;
-  } else if (pfM >= 40 && pfM < 45) {
+  } else if (pfM >= 55 && pfM < 59) {
     pf = 2;
-  } else if (pfM >= 35 && pfM < 40) {
+  } else if (pfM >= 50 && pfM < 54) {
     pf = 1.7;
-  } else if (pfM >= 30 && pfM < 35) {
+  } else if (pfM >= 45 && pfM < 49) {
     pf = 1.3;
-  } else if (pfM >= 25 && pfM < 30) {
+  } else if (pfM >= 40 && pfM < 44) {
     pf = 1;
   } else {
     pf = 0;
