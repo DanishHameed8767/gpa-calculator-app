@@ -174,13 +174,17 @@ const calculatePfGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -200,13 +204,17 @@ const calculatePflGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -226,13 +234,17 @@ const calculateCalculusGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -258,6 +270,10 @@ const calculateDMGP = (fields) => {
   } else if (pfM >= 50 && pfM < 55) {
     pf = 2;
   } else if (pfM >= 45 && pfM < 50) {
+    pf = 1.7;
+  } else if (pfM >= 40 && pfM < 45) {
+    pf = 1.3;
+  } else if (pfM >= 35 && pfM < 40) {
     pf = 1;
   } else {
     pf = 0;
@@ -277,13 +293,17 @@ const calculateAictGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -303,13 +323,17 @@ const calculateAictlGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -329,13 +353,17 @@ const calculateApGP = (fields) => {
     pf = 3.3;
   } else if (pfM >= 55 && pfM < 65) {
     pf = 3;
-  } else if (pfM >= 45 && pfM < 55) {
+  } else if (pfM >= 50 && pfM < 55) {
     pf = 2.7;
-  } else if (pfM >= 35 && pfM < 45) {
+  } else if (pfM >= 45 && pfM < 50) {
     pf = 2.3;
-  } else if (pfM >= 25 && pfM < 35) {
+  } else if (pfM >= 40 && pfM < 45) {
     pf = 2;
-  } else if (pfM >= 15 && pfM < 25) {
+  } else if (pfM >= 35 && pfM < 40) {
+    pf = 1.7;
+  } else if (pfM >= 30 && pfM < 35) {
+    pf = 1.3;
+  } else if (pfM >= 25 && pfM < 30) {
     pf = 1;
   } else {
     pf = 0;
@@ -361,6 +389,10 @@ const calculateAplGP = (fields) => {
   } else if (pfM >= 50 && pfM < 55) {
     pf = 2;
   } else if (pfM >= 45 && pfM < 50) {
+    pf = 1.7;
+  } else if (pfM >= 40 && pfM < 45) {
+    pf = 1.3;
+  } else if (pfM >= 35 && pfM < 40) {
     pf = 1;
   } else {
     pf = 0;
